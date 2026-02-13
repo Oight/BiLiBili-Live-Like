@@ -7,7 +7,7 @@ const CONFIG = {
     livePath:  './live_number.json',
     cookiePath: './bilibili_cookies.json',
     liveBaseUrl: 'https://live.bilibili.com/',
-    userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 chromium/147.0',
+    userAgent: 'Mozilla/5.0 (X11; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0',
     pageTimeout: 30000,
     jumpDelay: 1000
 }
