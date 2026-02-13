@@ -1,4 +1,4 @@
-const {firefox} = require('playwright');
+const {chromium} = require('playwright');
 const fs = require('fs');
 const path = require('path');
 
@@ -14,7 +14,7 @@ async function bilibili_Login() {
     let browser, context, page;
 
     try {
-        browser = await firefox.launch({
+        browser = await chromium.launch({
             headless: false,
             args: [
                // '--no-sandbox',
